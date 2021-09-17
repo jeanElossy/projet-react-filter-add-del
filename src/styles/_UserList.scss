@@ -1,0 +1,36 @@
+
+    .user{
+
+        .img{
+            width: 80px;
+            height: 80px;
+        }
+        .fas{
+            cursor: pointer;
+        }
+    }
+    
+    .line{
+        width: 85%;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.384);
+        transform: translateX(30px);
+    }
+
+.bar{
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 68%;
+}
+
+.bar::-webkit-scrollbar{
+    width: 7px;
+    height: 10px;
+    background: rgba(204, 171, 171, 0.541);
+}
+
+.bar::-webkit-scrollbar-thumb{
+    background: blue;
+    border-radius: 10px;
+}

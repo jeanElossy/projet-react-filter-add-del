@@ -1,0 +1,57 @@
+$color-white : rgba(255, 255, 255, 0.986);
+.header{
+    border-radius: 9px 9px 0 0;
+
+    form{
+
+        .input--top{
+            background: $color-white;
+            width: 40px;
+            border-radius: 50%;
+            transition: .2s ease-in-out;
+            border: 1px solid gray;
+            
+            &:focus{
+                width: 345px;
+                border-radius: 10px;
+                background: rgba(170, 181, 185, 0.288);
+                color: $color-white;
+                border: 1px solid rgba(198, 233, 241, 0.63);
+            }
+            &::placeholder{
+                color: $color-white;
+                font-style: italic;
+            }
+        }
+        .fas{
+            right: 12px;
+            top: 13px;
+        }
+        
+    }
+
+    form{
+        .input{
+            background: rgba(113, 113, 139, 0.562);
+            border: none;
+            &::placeholder{
+                color: white;
+                font-style: italic;
+            }
+        }
+        
+        .card__plus{
+            width: 35px;
+            height: 35px;
+            background: black;
+            cursor: pointer;
+            user-select: none;
+            span{
+                width: 20px;
+                height: 20px;
+                background: blue;
+                border-radius: 100px;
+            }
+        }
+    }
+}
